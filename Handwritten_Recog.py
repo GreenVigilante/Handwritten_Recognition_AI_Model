@@ -3,6 +3,7 @@ import numpy as np
 import tensorflow as tf
 import cv2
 import matplotlib.pyplot as plt
+# Model has been made with following commented script
 # print(tf.__version__)
 # mnist = tf.keras.datasets.mnist
 # (x_train, y_train), (x_test, y_test) = mnist.load_data()
@@ -34,4 +35,5 @@ while os.path.isfile(f"Numbers/{image_num}.png"):
         plt.show()
 
     finally:
+
         image_num +=1
